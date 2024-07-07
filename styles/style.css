@@ -3,7 +3,17 @@
   margin: 0 auto;
   padding: 0;
   font-family: "Work Sans", sans-serif;
+  
 }
+.btn{
+  padding: 10px 15px;
+  background-color: rgb(45, 166, 45);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+}
+
 #header{
   width: 1280px;
   height: 620px;
@@ -19,6 +29,8 @@
 #header .hero-content{
   color: white;
   width: 685px;
+  display: flex;
+  flex-direction: column;
 
 }
 .headline{
@@ -26,4 +38,49 @@
   font-size: 24px;
   font-weight: 600;
   opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.btn-container{
+  text-align: center;
+  margin-top: 20px;
+}
+.title{
+  margin-bottom: 20px;
+}
+.description{
+  font-size: 14px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/* Card Section */
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.card-box{
+  width: 1280px;
+  height: 620px;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}
+.card{
+  text-align: center;
+  width: 350px;
+  border: 5px solid red;
+}
+.company-name{
+  font-size: 24px;
+  font-weight:600;
+}
+.cupon{
+  font-size: 32px;
+  font-weight: 700px;
+  margin-bottom: 15px;
+}
+.card-des{
+  font-size: 18px;
 }
